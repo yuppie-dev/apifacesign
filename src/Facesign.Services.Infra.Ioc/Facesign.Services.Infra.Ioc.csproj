@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Facesign.Services.Application\Facesign.Services.Application.csproj" />
+    <ProjectReference Include="..\Facesign.Services.Domain\Facesign.Services.Domain.csproj" />
+    <ProjectReference Include="..\Facesign.Services.Infra.Data\Facesign.Services.Infra.Data.csproj" />
+    <ProjectReference Include="..\Facesign.Services.Infra.ExternalServices\Facesign.Services.Infra.ExternalServices.csproj" />
+  </ItemGroup>
+
+</Project>
